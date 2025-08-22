@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  &__body {
+    background: #fff;
+    border-radius: 8px;
+    padding: 32px 24px 24px 24px;
+    min-width: 320px;
+    min-height: 120px;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  }
+
+  &__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e69600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+    &:hover {
+      background: #b36b00;
+    }
+  }
+
+  &__content {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #333;
+  }
+}

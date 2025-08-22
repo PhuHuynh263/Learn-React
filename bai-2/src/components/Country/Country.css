@@ -1,0 +1,22 @@
+.country__list {
+  border: 1px solid #e69600;
+  min-width: 200px;
+  display: inline-block;
+}
+
+.country__item {
+  border: 1px solid #e69600;
+}
+
+.country__name {
+  background: #e69600;
+  display: block;
+  padding: 6px 10px;
+}
+
+
+.city__name {
+  background: turquoise;
+  display: block;
+  padding: 6px 10px;
+}
