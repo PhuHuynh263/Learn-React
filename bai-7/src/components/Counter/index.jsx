@@ -7,11 +7,11 @@ function Counter() {
     const dispatch = useDispatch();
     return (
         <>
-            <div>
+            <h2>
                 Counter: {counter}
-            </div>
-            <button onClick={() => dispatch(up())}>UP</button>
-            <button onClick={() => dispatch(down())}>DOWN</button>
+            </h2>
+            <button onClick={() => dispatch(up(5))}>UP 5</button>
+            <button onClick={() => dispatch(down(3))}>DOWN 3</button>
             <button onClick={() => dispatch(reset())}>RESET</button>
         </>
     );
